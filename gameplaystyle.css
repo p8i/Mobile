@@ -1,0 +1,135 @@
+* {
+border:0; 
+padding:0;
+margin:0;
+}
+
+#userscore {
+font:normal 40px arial;
+}
+#wrapper {
+width:100%;
+
+background:#c4e661 url("") no-repeat;margin:0 auto;position:relative;
+}
+
+.logo {
+margin:0 auto;display:block;padding-top:0px;
+}
+
+li {
+color:white;
+text-align:center;
+margin:0 auto;
+font: 700 3.200em/115px arial;
+list-style-type:none;padding:50px 0 50px 0;
+}
+
+span.answertext {
+color:red !important;background-color:green !important;
+}
+
+h1 {
+font-family:arial;
+font-size:11px;
+color:#6ea243;text-align:center;
+color:white;font-weight:800;padding-top:20px;
+}
+
+p.question{
+font-family:arial;
+font-size:16px;
+color:white;text-align:center;padding-top:13px;
+font-weight:700;width:225px;margin:0 auto;
+}
+
+.show {
+font-size:40px;
+}
+p.sentence {
+font-family:arial;
+font-size:13px;
+color:#776e45;
+font-weight:700;padding-top:8px;
+}
+
+/*p.one:before {
+content:url("1.png"); margin-left:20px;position:relative;top:11px;padding-right:12px;
+}
+
+.two:before {
+content:url("2.png"); margin-left:20px;position:relative;top:11px;padding-right:12px;
+}
+
+.three:before {
+content:url("3.png"); margin-left:20px;position:relative;top:11px;padding-right:12px;
+}*/
+.answer1, .answer2, .answer3 {
+/*background-color:white;height:67px;width:100%;border-bottom:1px solid #e4e1d2;
+color:black;
+font:100 13px/70px arial;*/
+
+color:black;
+font:100 2.500em/125px arial;padding-left:10px;position:relative;top:40px;
+}
+
+#thescoreblock {
+
+}
+.answer1:before {
+content:url("1.png");position:relative;top:17px;padding-right:15px;padding-left:15px;
+}
+.answer2:before {
+content:url("2.png");position:relative;top:17px;padding-right:15px;padding-left:15px;
+}
+.answer3:before {
+content:url("3.png");position:relative;top:17px;padding-right:15px;padding-left:15px;
+}
+
+.block {
+background-color:white;height:120px;width:100%;border-bottom:1px solid #e4e1d2;
+
+}
+
+#myoptions {
+width:100%;/*overflow:hidden;*/
+}
+.blockone {
+height:200px;
+}
+
+.blocktwo {
+height:200px;
+}
+
+.blockthree {
+height:200px;
+}
+
+
+.answers:hover {
+background-color:#fbfbfb;
+}
+
+#questionblock {
+/*height:300px;*/ width:960px;padding-top:0px;padding-bottom:0px;margin:0 auto; text-align:center;line-height:0;
+}
+
+.qcontainer {
+width:100%;background-color:#c0b16d;margin-top:42px;
+}
+#questionblock:before {
+content:url("triangle.png");position:relative;top:-12px;margin:0 auto;text-align:center;center:0;
+display:block;
+}
+#bar {
+height:35px;background-color:ececec;width:100%;position:relative;bottom:0;
+}
+
+a {
+text-decoration:none; 
+}
+
+.hide {
+display:none;
+}

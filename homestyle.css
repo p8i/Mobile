@@ -1,0 +1,79 @@
+* {
+border:0; 
+padding:0;
+margin:0;
+}
+
+body{
+background-color:#c4e661;
+/*background:#c4e661 url("gloss.png") no-repeat center;*/
+}
+
+#logocontainer {
+background:url("gloss.png") no-repeat top center; 
+}
+
+.logo {
+margin:0 auto;display:block;padding-top:56px;
+}
+
+
+h1 {
+font-family:arial;
+font-size:36px;
+color:#6ea243;text-align:center;margin-top:27px;
+font-weight:800;
+}
+
+#play {
+width:813px;
+height:93px;
+background-color:white;
+margin:50px auto;
+font-family:arial;
+font-size:46px;
+color:#c4e661;
+font-weight:bold; text-align:center;display:block;
+}
+#play:hover{
+background-color:#628f35;
+}
+
+#howto:hover{
+background-color:#628f35;
+color:#c4e661;
+}
+#howto {
+width:813px;
+height:93px;
+background-color:white;
+color:red; margin:0 auto;
+display:block;
+font-family:arial;
+font-size:34px;
+color:#978c58;
+font-weight:bold; text-align:center;
+}
+
+footer {
+background-color:#628f35; height:60px;margin-top:50px;}
+.site{
+width:100%;margin:0 auto;display:block;font:bold 30px arial;position:relative;top:7px;color:white;background-color:#628f35;padding:10px 0 10px 0;
+}
+
+a {
+text-decoration:none; 
+}
+
+#textcontainer {
+background-color:white;width:813px;margin-top:50px;margin:50px auto auto;
+}
+p.howtotext {
+font:normal 17px arial;
+margin:0 auto;
+width:640px;
+line-height:1.5;
+display:block;
+text-align:justify;padding:40px 0 40px 0;
+
+}

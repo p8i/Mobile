@@ -1,0 +1,79 @@
+* {
+border:0; 
+padding:0;
+margin:0;
+}
+
+#wrapper {
+width:100%;
+
+background:#c4e661 url("") no-repeat;margin:0 auto;
+}
+
+.icon {
+margin:0 auto;display:block;padding-top:48px;
+}
+
+
+h1 {
+font-family:arial;
+font-size:55px;
+color:white;text-align:center;margin-top:27px;
+font-weight:700;
+}
+
+p {
+font-family:arial;
+font-size:25px;
+color:#807851;margin:0 auto;display:block;width:813px;line-height:1.3;
+margin-top:34px;font-weight:700;text-align:center;
+}
+
+#play {
+width:813px;
+height:93px;
+background-color:white;
+margin:50px auto;
+font-family:arial;
+font-size:34px;
+color:#c4e661;
+font-weight:bold; text-align:center;display:block;
+}
+
+#howto {
+width:813px;
+height:93px;
+background-color:white;
+color:red; margin:0 auto;
+display:block;
+
+font-family:arial;
+font-size:34px;
+color:#978c58;
+font-weight:bold; text-align:center;
+}
+
+#play:hover{
+background-color:#628f35;
+}
+
+#howto:hover{
+background-color:#628f35;
+color:#c4e661;
+}
+
+span.play {
+position:relative;top:18px;
+}
+
+span {
+position:relative;top:11px;
+}
+
+#logo {
+margin:0 auto;width:135px;height:72px; padding:100px 0 20px 0;
+}
+
+a {
+text-decoration:none; 
+}
